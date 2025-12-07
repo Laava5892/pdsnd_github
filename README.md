@@ -47,7 +47,7 @@ Run the script using:
 ```bash
 ipython bikeshare_FinalFile.py
 ```
-- You will be prompted to select a **city**, **month**, and/or **day** to filter the data.
+- You should be prompted to select a **city**, **month**, and/or **day** to filter the data.
 - The program will then display statistics on:
   - Most frequent travel times
   - Popular stations and trips
