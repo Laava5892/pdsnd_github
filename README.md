@@ -22,7 +22,15 @@ CSV files for raw data input
 
 IPython for interactive command-line execution
 
-## Installation Instructions
+
+### Files used
+1. bikeshare_FinalFile.py
+2. chicago.csv
+3. washington.csv
+4. new_york_city.csv
+Github will not show the .csv files because we have added them to .gitignore.
+
+### Installation Instructions
 1. Ensure Python 3 is installed on your machine.
 2. Install required libraries (if not already installed):
    ```bash
