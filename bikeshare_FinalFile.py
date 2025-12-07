@@ -1,3 +1,11 @@
+
+"""
+Bikeshare Data Exploration Program
+Created for Udacity Programming for Data Science with Python Nanodegree
+This script allows users to filter and analyze US bikeshare data.
+
+"""
+
 import time
 import pandas as pd
 import numpy as np
