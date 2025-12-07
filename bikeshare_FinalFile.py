@@ -1,3 +1,11 @@
+
+"""
+Bikeshare Data Exploration Program
+Created for Udacity Programming for Data Science with Python Nanodegree
+This script allows users to filter and analyze US bikeshare data.
+
+"""
+
 import time
 import pandas as pd
 import numpy as np
@@ -41,7 +49,7 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june) 
    
-    months = ['january', 'february', 'march', 'april', 'may', 'june','all']
+    months = ['january', 'february', 'march', 'april', 'may', 'june','all']  # valid month filters
     if choice == 'month' or choice == 'both':
         month = input("\nPlease enter a month name from January to June.\n").lower()
         while month not in months:
@@ -52,7 +60,7 @@ def get_filters():
         
      #  get user input for day of week (all, monday, tuesday, ... sunday)   
         
-    days= ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']
+    days= ['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']  # valid days filters
     if choice == 'day' or choice == 'both':
         day = input("\nPlease enter a day name\n").lower()
         while day not in days:
