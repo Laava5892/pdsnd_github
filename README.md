@@ -1,15 +1,15 @@
-###Date Created
+### Date Created
 Dec 7th, 2025
 
 
-###Project Title
+### Project Title
 US Bikeshare Data Analysis
 A Python Project for the Udacity Programming for Data Science Nanodegree
 
-###Project Purpose
+### Project Purpose
 This project explores US bikeshare data from three major cities Chicago, New York City, and Washington, allowing users to filter data by city, month, and day of the week. Through a command-line interface, users can investigate travel patterns, station popularity, trip durations, and user demographics, gaining insights from real-world data while applying data wrangling and analysis techniques.
 
-###Technologies Used
+### Technologies Used
 Python 3 for scripting and control flow
 
 Pandas for data manipulation and analysis
@@ -34,7 +34,7 @@ IPython for interactive command-line execution
    - `new_york_city.csv`
    - `washington.csv`
 
-###Usage Instructions
+### Usage Instructions
 Run the script using:
 ```bash
 ipython bikeshare_FinalFile.py
@@ -47,7 +47,7 @@ ipython bikeshare_FinalFile.py
   - User demographics
 - Optionally, you can view 5 rows of raw trip data at a time and restart the analysis.
 
-###Learning Experience
+### Learning Experience
 This project provided hands-on experience with:
 - Reading and filtering datasets using Pandas
 - Extracting and transforming date and time data
@@ -56,12 +56,12 @@ This project provided hands-on experience with:
 - Implementing exception handling and input validation
 - Building CLI-based tools that simulate real-world data investigation workflows
 
-###Acknowledgements
+### Acknowledgements
 - This project was developed as part of the **Udacity Programming for Data Science with Python Nanodegree**.
 - Datasets provided by **Motivate** (a bike share system provider) under open data licenses.
 - Special thanks to Udacity mentors and reviewers for their guidance and feedback.
 
-###References
+### References
 These resources were invaluable in learning the foundational concepts and practical techniques used in this project:
 
 - **Python for Data Analysis** by Wes McKinney  
